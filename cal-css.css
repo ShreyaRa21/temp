@@ -1,0 +1,117 @@
+html{
+    font-size: calc(1em + 1vw);
+}
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('pexels-photo-1934846.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+table{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#val1 {
+    display: block;
+    margin: auto;
+    width: 448px;
+    /* padding: 57px 97px; */
+    text-align: right;
+    height: 117px;
+    font-size: 67px;
+    border: 1px solid black;
+    border: none;
+    font-family: 'Baloo Tamma 2', cursive;
+    
+}
+#cal{
+    /*border: 2px solid transparent;*/
+    padding:20px;
+    width: 530px;
+    background: linear-gradient(90deg, black, transparent);
+    margin: 8% auto;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 60px black ;
+    border-radius: 5px;
+}
+#btn{
+    width: 448px;
+    display: block;
+    margin: auto;
+    padding: 0px 22px;
+    font-size: 61px;
+    font-weight: 500;
+    border: none;
+    background-color: #a5a1a0;
+    border-radius: 5px;
+}
+.tab{
+    margin: 10px;
+    padding: 17px;
+    border: none;
+    font-size: 46px;
+    font-weight: normal;
+ font-family: 'Fjalla One', sans-serif ;
+    color: white;
+    background: border-box;
+    border-radius: 20px;
+}
+
+td{
+    text-align:center;
+}
+
+.hov1:hover{
+    background-color: hsla(182, 85%, 40%, 0.884);
+    border-radius: 10px;
+    
+}
+#btn:hover{
+    background-color: whitesmoke;
+}
+.row1 td{
+    border-radius: 5px;
+   
+    
+}
+footer{
+    text-align: center;
+    position: relative;
+    top: -80px;
+    font-size: 25px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#ln1{
+    width: 435px;
+    position: relative;
+    top: 8px;
+    /*left: 305px;*/
+    /*bottom: 90px;*/
+}
+svg {
+    height: 23px;
+    position: relative;
+    top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 60px;
+    /*position: relative;
+    top: 94px;*/
+    margin: 10px;
+    height: 0px;
+    /*margin: -45px;*/
+    /*text-decoration: underline;*/
+    text-shadow: 0 0 3px #0014ff;
+}
+
